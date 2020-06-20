@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_meena_bazar"
+            android:title="@string/meena_bazar" />
+        <item
+            android:id="@+id/nav_shwapno"
+            android:title="@string/shwapno" />
+        <item
+            android:id="@+id/nav_prince_bazar"
+            android:title="@string/prince_bazar" />
+
+        <item
+            android:id="@+id/nav_agora"
+            android:title="@string/agora" />
+
+        <item
+            android:id="@+id/nav_unimart"
+            android:title="@string/unimart" />
+
+        <item
+            android:id="@+id/nav_daily_shop"
+            android:title="@string/daily_shop" />
+    </group>
+
+</menu>
